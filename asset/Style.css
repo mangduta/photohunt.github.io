@@ -1100,7 +1100,9 @@ body.dark .heading {
     margin-left: 0px;
     margin-right: 15px;
   }
-
+  .image{
+    display: none !important;
+   }
   @media(min-width: 791px) {
     .testimonials-col img {
       height: 120px;
