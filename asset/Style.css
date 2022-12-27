@@ -291,6 +291,8 @@
   margin: 0 auto;
   color: white;
   text-transform: uppercase;
+  border-radius:20px;
+  border-color:white;
 }
   @media (max-width: 1060px) {
     .image {
