@@ -284,7 +284,14 @@
         line-height: 1; }
     header p {
       padding-top: 30px; }
-
+.catbtn{
+  background-color: #84b4b1;
+  width: fit-content;
+  padding: 8px;
+  margin: 0 auto;
+  color: white;
+  text-transform: uppercase;
+}
   @media (max-width: 1060px) {
     .image {
       float: none !important;
