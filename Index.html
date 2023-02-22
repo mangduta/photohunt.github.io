@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PhotoHunt | Home </title>
+    <link rel="stylesheet" href="asset/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="asset/vendor/fontawesome-free-6.2.0-web/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="asset/style.css">
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+</head>
+p
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-bar" id="navbar">
+                <i class='bx bx-menu sidebarOpen' id="burger"></i>
+                <div class="logo-details">
+                    <i class="fa fa-wave-square"></i>
+                    <span class="logo_name1" style="font-size: larger;">PhotoHunt.</span>
+                </div>
+
+                <div class="menu">
+                    <div class="logo-toggle">
+                        <div class="logo-details">
+                            <i class="fa fa-wave-square"></i>
+                            <span class="logo_name" style=" font-size: larger;">PhotoHunt.</span>
+                        </div>
+                        <i class='bx bx-x siderbarClose'></i>
+                    </div>
+
+                    <ul class="nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#campus">Category</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#booking">Booking</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="darkLight-searchBox">
+                    <div class="dark-light">
+                        <i class='bx bx-moon moon' id="moon"></i>
+                        <i class='bx bx-sun sun' id="sun"></i>
+                    </div>
+                    <div class="searchToggle">
+                        <a href="#"><i class="bx bx-arrow-back"></i></a>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <div class="waveWrapper waveAnimation">
+            <div class="waveWrapperInner bgTop">
+                <div class="wave waveTop" style="background-image: url('img/wave-top.png')"></div>
+            </div>
+            <div class="waveWrapperInner bgMiddle">
+                <div class="wave waveMiddle" style="background-image: url('img/wave-mid.png')"></div>
+            </div>
+            <div class="waveWrapperInner bgBottom">
+                <div class="wave waveBottom" style="background-image: url('img/wave-bot.png')"></div>
+            </div>
+        </div>
+        <div class="text-box">
+            <img src="asset/images/stylish.png" alt="">
+            <div class="text">
+                <h1 class="animate__animated animate__fadeInDown">Take a Shoot, Edit, And Boom!<h1>
+                        <h2 class="animate__animated animate__fadeInDown">
+                            フォトハント</h2>
+                        <p class="animate__animated animate__fadeInDown">PhotoHunt is leading Digital Asset Management
+                            platform to helps you hire the most talented photographers <br>while guaranteeing you the
+                            best
+                            possible experience.</p>
+                        <a href="#booking" id="hero-btn" class="animate__animated animate__fadeInDown"> Book a
+                            Photographer
+                            now</a>
+            </div>
+        </div>
+
+    </section>
+    
+
+    <section class="course" id="course">
+
+        <h1>Why Choose Us</h1>
+        <p class="category">we are the most convenient way to hire top photographers. Book professional photographers
+            now !!</p>
+        <br>
+        <br>
+
+
+        <img src="asset/images/benefits.png" class="image">
+
+        <br>
+        <br>
+        <div class="row">
+
+            <div class="course-col">
+                <div data-aos="fade-down">
+                    <img src="asset/images/icons/camera.png">
+                    <h3>All photographers are experts in their categories</h3>
+                </div>
+            </div>
+            <div class="course-col">
+                <div data-aos="fade-down">
+                    <img src="asset/images/icons/money.png">
+                    <h3>Safe online payments. Pay 70% after your shoot.</h3>
+                </div>
+            </div>
+            <div class="course-col">
+                <div data-aos="fade-down">
+                    <img src="asset/images/icons/time.png">
+                    <h3>Fast, on-time and professional service</h3>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <br>
+    <br>
+    <div class="bg-campus">
+        <section class="campus" id="campus">
+            <br><br><br>
+            <h1 class="campus-h1">Select from thousands of photographer located all over Indonesia
+                for your every occasion</h1>
+            <p class="category">Choose your favorite category </p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="asset/images/stock/portrait.jpg">
+                    <div class="layer">
+                        <a href="">Portrait Photography</a>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="asset/images/stock/event.jpg    ">
+                    <div class="layer">
+                        <a href="">Event Photography</a>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="asset/images/stock/prewedding.jpg">
+                    <div class="layer">
+                        <a href="">Prewedding<br> Photography</a>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="asset/images/stock/landscape.jpg">
+                    <div class="layer">
+                        <a href="">Landscape</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="asset/images/stock/family.jpg">
+                    <div class="layer">
+                        <a href="">Family</a>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="asset/images/stock/travel.jpg">
+                    <div class="layer">
+                        <a href="">Travel</a>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="asset/images/stock/kids.jpg">
+                    <div class="layer">
+                        <a href="">Kids</a>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="asset/images/stock/food.jpg">
+                    <div class="layer">
+                        <a href="">Food</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+    <!-- ------------ Facilities -------------- -->
+
+    <section class="facilities" id="booking">
+        <h1 class="jdl"> How to <span style="color:var(--text-color); background-color:var(--main-color);">Book?</span>
+        </h1>
+
+        <div class="container">
+
+            <div class="timeline-item" date-is='01-First'>
+                <h1 class="h1">Click on go Book button!</h1>
+                <p class="p">
+                    First thing that you should do is click on "Go Book" button below. Then you will be directed to fill
+                    out some forms.
+                </p>
+            </div>
+
+            <div class="timeline-item" date-is='02-Second'>
+                <h1 class="h1">Fill the forms!</h1>
+                <p class="p">
+                    Then you should fill out all the needed forms and some information about shoot details.
+                </p>
+            </div>
+
+            <div class="timeline-item" date-is='03-The Last'>
+                <h1 class="h1">Ta-daa finishing!</h1>
+                <p class="p">
+                    Our Administrator will contact you and talk more about your Shoot.
+                </p>
+            </div>
+            <div id="booking">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDv36gZEWGynA-5pr8eFFwrKp5y-Cex27zyByDqY9MiZnx0g/viewform?usp=sf_link"
+                    id="hero-btn2" class="animate__animated animate__fadeInDown">Go
+                    Book</a>
+            </div>
+    </section>
+
+    </div>
+
+<!-- <a href="" class="catbtn">
+View Categories 
+</a> -->
+
+    <div class="gallery" id="gallery">
+        <div class="gallery__column">
+            <a class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="https://source.unsplash.com/_cvwXhGqG-o/300x300" alt="Portrait by Jessica Felicio"
+                        class="gallery__image">
+                    <figcaption class="gallery__caption">Portrait by Jessica Felicio</figcaption>
+                </figure>
+            </a>
+
+            <a class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="Portrait by Oladimeji Odunsi"
+                        class="gallery__image">
+                    <figcaption class="gallery__caption">Portrait by Oladimeji Odunsi</figcaption>
+                </figure>
+            </a>
+
+            <a class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="https://source.unsplash.com/VLPLo-GtrIE/300x300" alt="Portrait by Alex Perez"
+                        class="gallery__image">
+                    <figcaption class="gallery__caption">Portrait by Alex Perez</figcaption>
+                </figure>
+            </a>
+        </div>
+
+        <div class="gallery__column">
+            <a class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="https://source.unsplash.com/AR7aumwKr2s/300x300" alt="Portrait by Noah Buscher"
+                        class="gallery__image">
+                    <figcaption class="gallery__caption">Portrait by Noah Buscher</figcaption>
+                </figure>
+            </a>
+
+            <a class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="https://source.unsplash.com/dnL6ZIpht2s/300x300" alt="Portrait by Ivana Cajina"
+                        class="gallery__image">
+                    <figcaption class="gallery__caption">Portrait by Ivana Cajina</figcaption>
+                </figure>
+            </a>
+
+            <a class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="https://source.unsplash.com/tV_1sC603zA/300x500" alt="Portrait by Sam Burriss"
+                        class="gallery__image">
+                    <figcaption class="gallery__caption">Portrait by Sam Burriss</figcaption>
+                </figure>
+            </a>
+        </div>
+
+        <div class="gallery__column">
+            <a class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="https://source.unsplash.com/Xm9-vA_bhm0/300x500" alt="Portrait by Mari Lezhava"
+                        class="gallery__image">
+                    <figcaption class="gallery__caption">Portrait by Mari Lezhava</figcaption>
+                </figure>
+            </a>
+
+            <a class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="https://source.unsplash.com/NTjSR3zYpsY/300x300" alt="Portrait by Ethan Haddox"
+                        class="gallery__image">
+                    <figcaption class="gallery__caption">Portrait by Ethan Haddox</figcaption>
+                </figure>
+            </a>
+
+            <a class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="https://source.unsplash.com/2JH8d3ChNec/300x300" alt="Portrait by Amir Geshani"
+                        class="gallery__image">
+                    <figcaption class="gallery__caption">Portrait by Amir Geshani</figcaption>
+                </figure>
+            </a>
+        </div>
+
+        <div class="gallery__column">
+            <a class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="https://source.unsplash.com/FQhLLehm4dk/300x300" alt="Portrait by Guilian Fremaux"
+                        class="gallery__image">
+                    <figcaption class="gallery__caption">Portrait by Guilian Fremaux</figcaption>
+                </figure>
+            </a>
+
+            <a class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="https://source.unsplash.com/OQd9zONSx7s/300x300" alt="Portrait by Jasmin Chew"
+                        class="gallery__image">
+                    <figcaption class="gallery__caption">Portrait by Jasmin Chew</figcaption>
+                </figure>
+            </a>
+
+            <a class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="https://source.unsplash.com/XZkEhowjx8k/300x500" alt="Portrait by Dima DallAcqua"
+                        class="gallery__image">
+                    <figcaption class="gallery__caption">Portrait by Dima DallAcqua</figcaption>
+                </figure>
+            </a>
+        </div>
+
+    </div>
+    <div class="tgallery">
+        <a href="asset/gallery.html" id="hero-btn4" class="animate__animated animate__fadeInDown">View Gallery</a>
+    </div>
+    <!-- -------------- Testimonials ----------- -->
+
+
+
+    <section class="testimonials" id="testimony">
+        <br>
+        <br>
+        <br>
+
+        <div class="konsultasi" id="konsultasi">
+            <br><br>
+            <h1>What Our Customers Say</h1>
+            <br>
+            <section class="konsul">
+                <div class="konsul-container">
+
+
+                    <div class="testimonials-col">
+                        <img src="asset/images/pp.jpg" class="border">
+                        <div>
+                            <h3>Fauzi abdulah</h3>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <p>It's really cool, We had absolutely great experience with PhotoHunt. Definitely
+                                recommend!.
+                                Loved his pics the moment we came across his website and even more happy with how
+                                the pictures
+                                turned out! He was friendly and casual, and most importantly made us feel
+                                comfortable in front
+                                of the camera. Thank you for the beautiful shots and memories that we will treasure
+                                for years to
+                                come.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="testimonials-col">
+                        <img src="asset/images/couple.jpg" class="border">
+                        <div>
+                            <h3>Alex Cassandra</h3>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <p>We did a Bali couple session and it was such a wonderful experience, we couldn't be
+                                happier with
+                                how the pictures turned out and having these professional photos of our trip is such
+                                an AMAZING
+                                gift.
+                                The whole process from booking a day, to the day of, everything from the emails,
+                                texts, the
+                                million questions we had were taken with great care an always making sure everything
+                                was just
+                                perfect.
+
+                                BEST EXPERIENCE EVER!!!
+                                <br>
+                                We wouldn't hesitate a second to call him if we ever went back to Bali!</p>
+                            <br><br>
+                        </div>
+                    </div>
+                    <div class="testimonials-col">
+                        <img src="asset/images/bli made.webp" class="border">
+                        <div>
+                            <h3>Bli Made</h3>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <p>Beehhh jek sekadi mantep ne, hasilne Luwung sesuai ekspektasi emang top markocop,
+                                pengalaman saya foto dengan fotographer disini Ok sekali,, Mentornya Ramah" dan ga kaku,
+                                skill nya juga udah jago".
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+    </section>
+    <div class="rating">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <span class="heading">User Rating</span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <p>4.7 average based on 1,905 reviews.</p>
+        <br>
+        <p class="t">5-Stars</p>
+        <div class="container">
+            <div class="skills html">1045</div>
+        </div>
+
+        <p class="t">4-Stars</p>
+        <div class="container">
+            <div class="skills css">600</div>
+        </div>
+
+        <p class="t">3-Stars</p>
+        <div class="container">
+            <div class="skills js">250</div>
+        </div>
+
+        <p class="t">2-Stars</p>
+        <div class="container">
+            <div class="skills php">10</div>
+        </div>
+    </div>
+    <!-- ------------- Call To Action ---------------- -->
+    <div class="bag">
+        <section class="cta" id="contact">
+            <h1>Want to know more? keep in touch <br>with our company! </h1>
+            <a href="https://desty.page/mangdutapunya" id="hero-btn3">CONTACT US</a>
+        </section>
+
+        <!-- ------------- Footer ---------------- -->
+
+        <footer id="about">
+            <div class="content">
+                <div class="top">
+                    <div class="logo-details">
+                        <i class="fa fa-wave-square" id="darklogo"></i>
+                        <span class="logo_name3">PhotoHunt.</span>
+                    </div>
+
+                    <div class="media-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100069503826651"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/mang_dutaa15/"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="link-boxes">
+                    <div class="box">
+                        <h3 class="link_name" style="text-align:left ;">About Us</h3>
+                        <p>PhotoHunt is leading Digital Asset Management platform to helps you hire the most
+                            talented <br>
+                            photographers while guaranteeing you the best possible experience.</p>
+                        <hr>
+                        <p><i>Take A Shoot, Edit, and Boom!</i></p>
+                    </div>
+                    <ul class="box">
+                        <li class="link_name">Company</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="https://wa.me/085792569763? text=Hallo%20,%20Saya%20ingin%20bertanya%20tentang...">Contact
+                                us</a></li>
+                        <li><a href="#booking">Booking</a></li>
+                    </ul>
+                    <ul class="box">
+                        <li class="link_name">Services</li>
+                        <li><a href="#">Photography</a></li>
+                        <li><a href="#">Editing </a></li>
+                    </ul>
+                    <ul class="box">
+                        <li class="link_name">Account</li>
+                        <li><a href="https://wa.me/085857644914? text=Hallo%20,%20Saya%20ingin%20bertanya%20tentang...">Customer
+                                Services</a></li>
+                    </ul>
+
+                    <ul class="box input-box">
+                        <li class="link_name">Subscribe</li>
+                        <li><input type="text" placeholder="Enter your email"></li>
+                        <a href="#">
+                            <li><input type="button" value="Subscribe" class="third"></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom-details">
+                <div class="bottom_text">
+                    <span class="copyright_text">Copyright © 2021 <a href="#">PhotoHunt.</a>All rights
+                        reserved</span>
+                    <span class="policy_terms">
+                        <a href="#">Privacy policy</a>
+                        <a href="#">Terms & condition</a>
+
+                    </span>
+
+                </div>
+
+            </div>
+        </footer>
+
+    </div>
+    <!--Animation-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.init({
+            delay: 100,
+            duration: 800,
+        });
+    </script>
+    <!--Navbar-->
+    <!--Color-->
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() > 100) {
+                $(".nav-bar").addClass("aktifkan");
+            } else {
+                $(".nav-bar").removeClass("aktifkan");
+            }
+        });
+    </script>
+
+    <script>
+        const body = document.querySelector("body"),
+            nav = document.querySelector("nav"),
+            modeToggle = document.querySelector(".dark-light"),
+            searchToggle = document.querySelector(".searchToggle"),
+            sidebarOpen = document.querySelector(".sidebarOpen"),
+            siderbarClose = document.querySelector(".siderbarClose");
+
+        let getMode = localStorage.getItem("mode");
+        if (getMode && getMode === "dark-mode") {
+            body.classList.add("dark");
+        }
+
+        // js code to toggle dark and light mode
+        modeToggle.addEventListener("click", () => {
+            modeToggle.classList.toggle("active");
+            body.classList.toggle("dark");
+
+            // js code to keep user selected mode even page refresh or file reopen
+            if (!body.classList.contains("dark")) {
+                localStorage.setItem("mode", "light-mode");
+            } else {
+                localStorage.setItem("mode", "dark-mode");
+            }
+        });
+
+
+        // js code to toggle search box
+        searchToggle.addEventListener("click", () => {
+            searchToggle.classList.toggle("active");
+        });
+
+
+        //   js code to toggle sidebar
+        sidebarOpen.addEventListener("click", () => {
+            nav.classList.add("active");
+        });
+
+        body.addEventListener("click", e => {
+            let clickedElm = e.target;
+
+            if (!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains(
+                    "menu")) {
+                nav.classList.remove("active");
+            }
+        });
+    </script>
+
+    <!--Notif-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <script>
+        document.querySelector(".third").addEventListener('click', function () {
+            swal("Terimakasih telah Subscribe", "Anda telah sukses berlangganan", "success");
+        });
+    </script>
+    <!--ON Scroll navbar-->
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-100px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+
+</body>
